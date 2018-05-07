@@ -71,7 +71,7 @@ const handlers = {
   }  
 };
 
-var view = {
+const view = {
   displayTodos() {
     const todosUl = document.querySelector('ul');
     todosUl.innerHTML = '';
